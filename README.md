@@ -6,14 +6,14 @@ Download from: https://www.python.org/downloads/
 
 2. ✅ Create and Activate a Virtual Environment (Optional but Recommended)
 
-# Navigate to your project folder
+2.1 ✅ Navigate to your project folder
 cd path\to\your\project-folder
 
-# Create virtual environment
+2.2 ✅Create virtual environment
 python -m venv venv
 
-# Activate virtual environment
-# On Windows:
+2.3 ✅Activate virtual environment
+✅ On Windows:
 venv\Scripts\activate
 3. ✅ Install Required Packages
 Install Streamlit, PyTorch, and YOLOv5 dependencies:
@@ -29,6 +29,7 @@ Your folder should contain:
 📁 project-folder/
 ├── app.py        ← your Streamlit script
 ├── best.pt       ← your trained YOLOv5 model
+
 5. ✅ (Optional Fix) If You Encounter PosixPath Errors
 Add this to the top of app.py:
 
